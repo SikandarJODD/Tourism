@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f5;
+    background-color: #ffffff;
 }
 li,a,button{
     font-family: 'Baloo Bhaijaan 2', cursive;
@@ -26,11 +26,12 @@ header{
 .head-1{
     display: flex;
     align-items: center;
+    background-color: #ffffff;
 }
 .Med{
     font-size: 20px;
     margin-top: 2px;
-    color: #06b9e6;
+    color: #14aef5;
     font-weight: 600;
 }
 .logo{
@@ -52,6 +53,13 @@ header{
     font-size: 20px;
     
 }
+.ctb{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: rgb(12, 12, 12);
+    font-weight: 580;
+}
 button{
     padding: 9px 25px;
     background-color: rgba(0,136,169,1);
@@ -59,7 +67,7 @@ button{
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.5s ease 0s;
+    transition: all 0.4s ease 0s;
 }
 button:hover{
     background-color: rgba(0,136,169,0.84);
